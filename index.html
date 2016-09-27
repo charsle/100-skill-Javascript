@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>100个原生JavaScript技巧demo</title>
+</head>
+
+<body>
+    <script src="js/index.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+        /*测试截取字符串*/
+        window.onload = function() {
+            var str = 'ab卡结束的cdefghijklmnopq';
+            var cutString = cutStr(str, 10);
+            console.log(cutString);
+            //-----
+            var url = 'http://www.baidu.com/sss/xxxx'
+            var hosts = getHosts(url);
+            console.log(hosts);
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
